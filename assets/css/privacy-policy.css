@@ -1,0 +1,46 @@
+.html{
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    background-color: rgb(251, 255, 240);
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+header{
+    font-size: xx-large;
+    font-weight: 900;
+    color: #292222;
+}
+
+p{
+    text-indent: 30px;
+    padding-left: 100;
+    color:rgb(82 82 93);
+    font-size:large;
+}
+
+.content{
+    flex-direction: column;
+    justify-content: flex-start;
+    text-align: start;
+    justify-content: flex-start;
+    width: 65%;
+}
+
+li{
+    font-size:large;
+    color:rgb(82 82 93);
+}
+
+h1,h2,h3{
+    color: #292222;
+    font-weight: 900;
+}
